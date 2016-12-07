@@ -8,6 +8,6 @@
   "scripts": {
     "start": "node app.js",
     "preinstall" : "bash preinstalls.sh",
-    "prestart" : "./node_modules/bower/bin/bower i"
+    "prestart" : "cd node_modules/bower/bin && ./bower install"
   }
 }
