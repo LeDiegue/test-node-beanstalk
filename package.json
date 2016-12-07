@@ -6,8 +6,8 @@
     "bower": "^1.3.1"
   },
   "scripts": {
-    "start": "node app.js",
     "preinstall" : "bash preinstalls.sh",
-    "prestart" : "cd node_modules/bower/bin && ./bower install"
+    "prestart" : "cd node_modules/bower/bin && ./bower install",
+    "start": "node app.js"
   }
 }
